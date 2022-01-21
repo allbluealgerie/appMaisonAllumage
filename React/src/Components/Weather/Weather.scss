@@ -1,0 +1,38 @@
+.weather {
+  margin-top: 40px;
+  width: 100%;
+  position: relative;
+  overflow: hidden;
+  sup {
+    font-size: 11px;
+    position: relative;
+    top: -11px;
+  }
+  &::before {
+    content: "";
+    position: absolute;
+    width: 130px;
+    height: 60px;
+    background: linear-gradient(
+      to right,
+      rgba(255, 255, 255, 0) 0%,
+      rgba(255, 255, 255, 0.5) 50%,
+      rgba(255, 255, 255, 1) 100%
+    );
+    right: 0;
+    bottom: 14px;
+  }
+  > div {
+    white-space: nowrap;
+  }
+  > div + div {
+    margin-left: 30px;
+  }
+  > div > strong {
+    font-size: 20px;
+  }
+  > div > p {
+    color: $text-gray;
+    margin-top: 10px;
+  }
+}

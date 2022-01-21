@@ -3,6 +3,13 @@ import { createGlobalStyle } from "styled-components"
 export const Global = createGlobalStyle`
 :root {
   --ColGrey: #e0e0e0;
+  --ColDarkBlue : #022D50;
+  --ColLightBlue : #029AFE;
+  --ColOne : #FDFDFF;
+  --ColTwo : #CCEDFF;
+  --ColThree : #02FFFE;
+  --ColFour : #029AFE;
+
   
 }
 *,

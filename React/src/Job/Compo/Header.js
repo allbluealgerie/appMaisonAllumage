@@ -1,18 +1,17 @@
 import React from "react"
 import styled from "styled-components"
-
+import logo from "../Assets/logo.svg"
 const Header = () => {
-  return <HeaderCont>Bonjour</HeaderCont>
+  return (
+    <HeaderCont>
+      <Logo src={logo} alt="logo" />
+    </HeaderCont>
+  )
 }
 
 export default Header
 
-const HeaderCont = styled.div`
-  width: 100%;
-  height: 20%;
-  border-radius: 10px;
-  background: var(--ColGrey);
-
-  box-shadow: 6px 6px 12px #bebebe, -6px -6px 12px #ffffff;
-  padding: 3rem;
+const HeaderCont = styled.div``
+export const Logo = styled.img`
+  width: 60%;
 `

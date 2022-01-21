@@ -12,6 +12,7 @@ const HeaderCont = styled.div`
   height: 20%;
   border-radius: 10px;
   background: var(--ColGrey);
+
   box-shadow: 6px 6px 12px #bebebe, -6px -6px 12px #ffffff;
   padding: 3rem;
 `

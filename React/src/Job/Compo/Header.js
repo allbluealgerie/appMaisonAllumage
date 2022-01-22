@@ -11,7 +11,12 @@ const Header = () => {
 
 export default Header
 
-const HeaderCont = styled.div``
+const HeaderCont = styled.div`
+  width: 100%;
+  display: flex;
+  justify-content: center;
+`
 export const Logo = styled.img`
-  width: 60%;
+  margin: 3rem;
+  height: 20rem;
 `

@@ -2,10 +2,13 @@ import React from "react"
 import styled from "styled-components"
 import Bluecircle from "./BlueCircle.js"
 import Circle from "../Assets/blueCircle.svg"
+import Homebutton from "./HomeButton.js"
 const Accueilbody = () => {
   return (
     <BodyCont>
-      <ChoixLieu image={Circle}>bonjour</ChoixLieu>
+      <ChoixLieu image={Circle}>
+        <Homebutton />
+      </ChoixLieu>
 
       <Bluecircle pos="absolute" w="15" t="0" l="-3" blur="0.3" />
       <Bluecircle pos="absolute" w="5" t="-3" l="90" blur="0.6" />
